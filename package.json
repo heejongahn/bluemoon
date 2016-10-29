@@ -1,0 +1,11 @@
+{
+  "name": "bluemoon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/heejongahn/bluemoon",
+    "type": "git"
+  },
+  "author": "Heejong Ahn <heejongahn@gmail.com>",
+  "license": "MIT"
+}
