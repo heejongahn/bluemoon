@@ -11,5 +11,8 @@
   "dependencies": {
     "open-color": "^1.4.0",
     "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "build": "stylus src/bluemoon.styl -o dist"
   }
 }
