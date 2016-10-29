@@ -7,5 +7,9 @@
     "type": "git"
   },
   "author": "Heejong Ahn <heejongahn@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "open-color": "^1.4.0",
+    "stylus": "^0.54.5"
+  }
 }
