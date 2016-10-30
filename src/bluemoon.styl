@@ -1,5 +1,6 @@
 @import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css')
 @import '../node_modules/normalize.css/normalize.css'
+@import 'variables.styl'
 
 html
   box-sizing border-box
@@ -7,3 +8,18 @@ html
 
 *, *:before, *:after
   box-sizing inherit
+
+/* Container */
+
+.container
+  width: 80%
+  margin-right: auto
+  margin-left: auto
+
+@media(min-width: web)
+  .container
+    width: 60%
+    max-width: 1000px
+    margin-right: auto
+    margin-left: auto
+
