@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "stylus src/bluemoon.styl -o dist",
-    "watch": "stylus src/bluemoon.styl -o dist -w"
+    "watch": "stylus src/bluemoon.styl -o dist -w",
+    "prepublish": "npm run build"
   }
 }
