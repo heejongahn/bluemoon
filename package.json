@@ -1,7 +1,7 @@
 {
   "name": "bluemoon",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/bluemoon.js",
   "repository": {
     "url": "https://github.com/heejongahn/bluemoon",
     "type": "git"
@@ -9,8 +9,9 @@
   "author": "Heejong Ahn <heejongahn@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node_modules/.bin/webpack",
-    "watch": "node_modules/.bin/webpack --watch",
+    "build": "node_modules/.bin/webpack --progress",
+    "watch": "node_modules/.bin/webpack --progress --watch",
+    "release": "node_modules/.bin/webpack --progress -p",
     "prepublish": "npm run build"
   },
   "devDependencies": {
