@@ -3,6 +3,7 @@ import webpack from 'webpack';
 
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import autoprefixer from 'autoprefixer';
+import flexfix from 'postcss-flexbugs-fixes';
 
 const plugins = [
   new ExtractTextPlugin('bluemoon.css'),
@@ -34,5 +35,5 @@ export default {
     ]
   },
   plugins: plugins,
-  postcss: [ autoprefixer() ]
+  postcss: [ autoprefixer(), flexfix() ]
 };
