@@ -9,6 +9,7 @@
   "author": "Heejong Ahn <heejongahn@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "index": "stylus index.styl -o index.css",
     "build": "node_modules/.bin/webpack --progress",
     "watch": "node_modules/.bin/webpack --progress --watch",
     "release": "node_modules/.bin/webpack --progress -p",
