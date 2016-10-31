@@ -1,2 +1,2 @@
-require('./src/bluemoon.styl');
-require('./src/bluemoon.js');
+require('./src/stylus/bluemoon.styl');
+require('./src/js/bluemoon.js');
