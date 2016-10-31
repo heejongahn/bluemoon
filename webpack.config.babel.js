@@ -34,5 +34,5 @@ export default {
     ]
   },
   plugins: plugins,
-  postcss: () => { [ autoprefixer ] }
+  postcss: [ autoprefixer() ]
 };
